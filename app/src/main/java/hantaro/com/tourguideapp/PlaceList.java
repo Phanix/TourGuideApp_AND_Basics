@@ -15,6 +15,10 @@ public class PlaceList extends Fragment {
 
     private String place;
 
+    public void setPlace(String place){
+        this.place = place;
+    }
+
     public PlaceList() {
         // Required empty public constructor
     }
