@@ -6,6 +6,8 @@ import android.content.res.Resources;
 public class Helper {
     public static final String RESTAURANTS = "restaurat";
     public static final String HOTELS = "hotels";
+    public static final String PARKS = "parks";
+    public static final String ATTRACTIONS = "attractions";
  
 
     public static int [] restaurants = {
@@ -45,20 +47,78 @@ public class Helper {
             R.drawable.hot
     };
 
+    public static int[] parksImages = {
+            R.drawable.presidio,
+            R.drawable.goldengatepark,
+            R.drawable.ina,
+            R.drawable.grandview,
+            R.drawable.buena
+    };
+
+    public static int [] parks = {
+            R.string.presidio,
+            R.string.golden_gate_park,
+            R.string.ina,
+            R.string.grandview,
+            R.string.buena_vista
+    };
+
+    public static int [] attractions = {
+            R.string.golden_gate,
+            R.string.alcatraz,
+            R.string.ferry,
+            R.string.alamo,
+            R.string.cable
+    };
+    public static int [] attractionsImages = {
+            R.drawable.goldengate,
+            R.drawable.alcatraz,
+            R.drawable.ferry,
+            R.drawable.alamo,
+            R.drawable.cacle
+    };
+
    public static int []  getImage(String type){
             if(type.equals(RESTAURANTS))
                  return restaurantsImages;
-            else{
+            else if(type.equals(HOTELS)){
                 return hotelImages;
+            }else if(type.equals(PARKS)){
+                return parksImages;
+            }else{
+                return attractionsImages;
             }
    }
 
    public static int [] getPlace(String type) {
        if(type.equals(RESTAURANTS))
             return restaurants;
-       else
+       else if(type.equals(HOTELS))
            return hotels;
+       else if(type.equals(PARKS)){
+           return parks;
+       }else{
+           return attractions;
+       }
 
+   }
+
+
+   public static String getName(int position){
+
+       switch (position){
+           case 0:
+               return "Attractions";
+           case 1:
+               return "Restaurants";
+           case 2:
+               return "Parks";
+           case 3:
+               return "Hotels";
+           default:
+               return "";
+
+       }
    }
 
 
