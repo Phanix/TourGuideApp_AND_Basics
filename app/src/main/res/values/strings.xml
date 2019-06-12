@@ -7,4 +7,14 @@
     <string name="parks_label">Parks</string>
     <string name="hotels_label">Hotels</string>
     <string name="attractions_label">Attractions</string>
+    <string name="mo_grill">Mo\'s Grill:1322 Grant Ave, San Francisco, CA 94133-3904</string>
+    <string name="za_pizza">Za Pizza:1919 Hyde St, San Francisco, CA 94109-2014</string>
+    <string name="curry_restaurant">Curry Leaf Restaurant:943 Columbus Ave, San Francisco, CA 94133-2309</string>
+    <string name="hot_stup">Hot Spud:2640 Mason St, San Francisco, CA 94133-1210</string>
+    <string name="good_mong">Good Mong Kok Bakery:1039 Stockton St, San Francisco, CA 94108-1109</string>
+    <string name="hotel_nikko">Hotel Nikko:222 Mason St, San Francisco, CA 94102</string>
+    <string name="fairmont">Fairmont San Francisco:950 Mason St, San Francisco, CA 94108-6000</string>
+    <string name="cow_hollow">Cow Hollow Inn and Suites:2190 Lombard St, Between Steiner and Fillmore Streets, San Francisco, CA 94123-2713</string>
+    <string name="argonaut">Argonaut Hotel:495 Jefferson St, San Francisco, CA 94109-1314</string>
+    <string name="zoe">Hotel Zoe Fisherman\'s Wharf:425 North Point Street, San Francisco, CA 94133-1405</string>
 </resources>
